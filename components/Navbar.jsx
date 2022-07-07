@@ -169,7 +169,7 @@ const Navbar = () => {
                   </li>
                 </Link>
               </ul>
-              <div className="pt-40 ">
+              <div className="py-4">
                 <p className="uppercase tracking-widest text-[#635FC7]">
                   Get in touch!
                 </p>
