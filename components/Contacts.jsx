@@ -46,12 +46,24 @@ const Contacts = () => {
               <div>
                 <p className="uppercase pt-8">Connect with me</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full text-[#635FC7] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full text-[#635FC7] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
-                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/edu09campos/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full text-[#635FC7] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaLinkedinIn />
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/Edu09campos"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div className="rounded-full text-[#635FC7] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaGithub />
+                    </div>
+                  </a>
                   <Link href="/resume">
                     <a>
                       <div className="rounded-full text-[#635FC7] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
