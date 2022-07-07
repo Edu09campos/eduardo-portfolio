@@ -3,6 +3,7 @@ import React from "react";
 import portfolioImg from "../public/assets/portfolio.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import Head from "next/head";
 
 const Portfolio = () => {
   return (
