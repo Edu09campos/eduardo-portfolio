@@ -3,7 +3,7 @@ import Head from "next/head";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineDownload } from "react-icons/ai";
 
-const resume = () => {
+const Resume = () => {
   return (
     <>
       <Head>
@@ -34,11 +34,7 @@ const resume = () => {
             >
               <FaGithub size={20} style={{ marginRight: "1rem" }} />
             </a>
-            <a
-              href="https://github.com/Edu09campos"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="/resume.pdf" download>
               <AiOutlineDownload
                 size={22}
                 style={{ marginRight: "1rem", fontWeight: "bold" }}
@@ -180,4 +176,4 @@ const resume = () => {
   );
 };
 
-export default resume;
+export default Resume;
