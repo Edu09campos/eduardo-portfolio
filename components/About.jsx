@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import webworld from "../public/assets/webworld.jpeg";
 
 const About = () => {
   return (
@@ -43,7 +44,7 @@ const About = () => {
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-110 ease-in duration-300">
           <Image
             className="rounded-xl"
-            src="/../public/assets/webworld.jpeg"
+            src={webworld}
             alt="About image"
             width={500}
             height={375}

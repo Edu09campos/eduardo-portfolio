@@ -4,6 +4,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
+import logoTransparent from "../public/assets/logo_transparent.png";
 
 const Main = () => {
   return (
@@ -12,7 +13,7 @@ const Main = () => {
         <div>
           <div className="hidden sm:flex justify-center mt-8">
             <Image
-              src="/../public/assets/logo_transparent.png"
+              src={logoTransparent}
               width="200"
               height="200"
               alt="Eduardo Logo"

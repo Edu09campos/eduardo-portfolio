@@ -4,6 +4,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
+import contactsPic from "../public/assets/contactspic.jpeg";
 
 const Contacts = () => {
   const [name, setName] = useState("");
@@ -33,7 +34,7 @@ const Contacts = () => {
               <Image
                 className="rounded-xl hover:scale-110 hover:rounded-xl ease-in duration-300"
                 alt="Contact image"
-                src="/../public/assets/contactspic.jpeg"
+                src={contactsPic}
                 width={550}
                 height={400}
               />

@@ -1,6 +1,15 @@
-import Image from "next/image";
 import React from "react";
 import SkillItem from "./SkillItem";
+import flutter from "../public/assets/flutter.png";
+import react from "../public/assets/react.png";
+import node from "../public/assets/node.png";
+import tsjs from "../public/assets/tsjs.png";
+import django from "../public/assets/django.png";
+import postgres from "../public/assets/postgres.png";
+import redis from "../public/assets/redis.png";
+import firebase from "../public/assets/firebase.png";
+import graphql from "../public/assets/graphql.png";
+import docker from "../public/assets/docker.webp";
 
 const Skills = () => {
   return (
@@ -12,70 +21,70 @@ const Skills = () => {
         <h2 className="py-4">What I work with</h2>
         <div className="grid md:grid-cols-4 lg:grid-cols-5 gap-6">
           <SkillItem
-            imageURL="/../public/assets/flutter.png"
+            imageURL={flutter}
             width="45"
             height="56"
             alt="Flutter Skill"
             skillName="Flutter"
           />
           <SkillItem
-            imageURL="/../public/assets/react.png"
+            imageURL={react}
             width="60"
             height="52"
             alt="React Skill"
             skillName="React.js"
           />
           <SkillItem
-            imageURL="/../public/assets/node.png"
+            imageURL={node}
             width="49"
             height="55"
             alt="Node.js Skill"
             skillName="Node.js"
           />
           <SkillItem
-            imageURL="/../public/assets/tsjs.png"
+            imageURL={tsjs}
             width="60"
             height="54"
             alt="TS/JS Skill"
             skillName="TS/JS"
           />
           <SkillItem
-            imageURL="/../public/assets/django.png"
+            imageURL={django}
             width="55"
             height="55"
             alt="Django Skill"
             skillName="Django"
           />
           <SkillItem
-            imageURL="/../public/assets/postgres.png"
+            imageURL={postgres}
             width="53"
             height="55"
             alt="PostgreSQL Skill"
             skillName="PostgreSQL"
           />
           <SkillItem
-            imageURL="/../public/assets/redis.png"
+            imageURL={redis}
             width="55"
             height="55"
             alt="Redis Skill"
             skillName="Redis"
           />
           <SkillItem
-            imageURL="/../public/assets/firebase.png"
+            imageURL={firebase}
             width="55"
             height="55"
             alt="Firebase Skill"
             skillName="Firebase"
           />
           <SkillItem
-            imageURL="/../public/assets/graphql.png"
+            imageURL={graphql}
             width="55"
             height="55"
             alt="GraphQL Skill"
             skillName="GraphQL"
           />
           <SkillItem
-            imageURL="/../public/assets/docker.webp"
+            imageURL={docker}
             width="60"
             height="52"
             alt="Docker Skill"
