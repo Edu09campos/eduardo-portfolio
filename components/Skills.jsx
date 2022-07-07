@@ -2,8 +2,10 @@ import React from "react";
 import SkillItem from "./SkillItem";
 import flutter from "../public/assets/flutter.png";
 import react from "../public/assets/react.png";
+import reactnative from "../public/assets/reactnative.png";
 import node from "../public/assets/node.png";
 import tsjs from "../public/assets/tsjs.png";
+import htmlcss from "../public/assets/htmlcss.png";
 import django from "../public/assets/django.png";
 import postgres from "../public/assets/postgres.png";
 import redis from "../public/assets/redis.png";
@@ -19,7 +21,7 @@ const Skills = () => {
           Skills
         </p>
         <h2 className="py-4">What I work with</h2>
-        <div className="grid md:grid-cols-4 lg:grid-cols-5 gap-6">
+        <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
           <SkillItem
             imageURL={flutter}
             width="45"
@@ -35,6 +37,13 @@ const Skills = () => {
             skillName="React.js"
           />
           <SkillItem
+            imageURL={reactnative}
+            width="93"
+            height="62"
+            alt="React Native Skill"
+            skillName="React Native"
+          />
+          <SkillItem
             imageURL={node}
             width="49"
             height="55"
@@ -47,6 +56,13 @@ const Skills = () => {
             height="54"
             alt="TS/JS Skill"
             skillName="TS/JS"
+          />
+          <SkillItem
+            imageURL={htmlcss}
+            width="75"
+            height="55"
+            alt="TS/JS Skill"
+            skillName="HTML+CSS"
           />
           <SkillItem
             imageURL={django}
